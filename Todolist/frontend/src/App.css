@@ -1,0 +1,54 @@
+.App {
+  width:90%;
+  height: 90% ;
+  text-align: center;
+  background-color: #ff6666;
+  margin: 70px auto;
+  padding: 20px;
+  border: 2px solid brown;
+  border-radius: 5px;
+  }
+  .App h1 {
+  font-size: 5em;
+  color: #fff;
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+}
+.TodoForm{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.todo-input {
+  outline: none;
+  background: none;
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 300px;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #ffffff4d;
+}
+
+.todo-btn {
+  background: black;
+  color: #fff;
+  border: none;
+  padding: 0.55rem;
+  cursor: pointer;
+  
+}
+p{
+  
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  color: black;
+  padding: 0.75rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+
+Todolist with Node-persist storage
+ 
+
+Front-end:
+The React.js front-end efficiently manages the user interface and state through components.
+The key components include App.js, responsible for rendering the task list and handling user input.
+
+Back-end:
+The Node.js/Express.js back-end handles HTTP requests and interacts with the Node-persist storage.
+It provides two key endpoints: GET /api/tasks for fetching tasks and POST /api/tasks for adding new tasks.
+
+
+API Communication:
+Axios is used in the front-end to make asynchronous API requests to the back-end.
+
+Clear Task:
+Click the button and refresh the page it will delete the task.
+
+To start App
+ cd backend 
+ npm install
+ npm start
+
+cd frontend
+npm install
+npm start
